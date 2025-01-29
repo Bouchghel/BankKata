@@ -14,10 +14,12 @@ Le but est de simuler un compte bancaire avec des opérations de dépôt, de ret
   
 ## Classe StatementPrinter :  
 Cette classe est responsable de l'affichage du relevé bancaire. Elle formate les transactions et les imprime à l'écran.  
+  
 ![StatementPrinter](https://github.com/user-attachments/assets/b8062110-ca5b-4dd7-9cc3-dd8d7bce50bf)  
   
 ## Test D'acceptation :  
 Ce projet utilise Mockist TDD (approche de test avec des objets mockés) pour faciliter le développement et tester les interactions entre les classes, avant même que le code complet soit implémenté.  
+  
 ![Test](https://github.com/user-attachments/assets/9e8e690e-0053-45f7-8202-7922db0959b4)  
 ![passed](https://github.com/user-attachments/assets/d4b29a87-53a3-43fa-8e3c-79345e59245e)  
 debug :  
@@ -28,6 +30,7 @@ Clonez ce repository.
 Compilez le projet avec Maven.  
 Exécutez les tests en utilisant JUnit.  
 Pour afficher le relevé bancaire, appelez la méthode printStatement() sur une instance de la classe Account :  
+  
 ![Main](https://github.com/user-attachments/assets/dc9ad774-83ff-44d4-b29f-f056fd1906e2)  
 ![Result](https://github.com/user-attachments/assets/4df16cfe-0127-41f4-8e08-f73c62ce589a)
 
